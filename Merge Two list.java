@@ -9,9 +9,7 @@ class Solution{
                 //current.next is mainly to merge into the main list 
                 //so its like saying that add list1 value in merged list 
                 current.next=list1;
-                //this is saying that make list1 ki last node 
-                //ki value pehle stp me to merged list me add kardi abhi
-    //usi added node ki next value list1 me store karde matlab ussi list me age chale ja
+                
                 list1=list1.next;
             }
             else{
@@ -22,7 +20,7 @@ class Solution{
             current=current.next;
             
         }
-//if list1 kahtam ho gyi to list2 ke sare elemnts merged list(current.next) me chipka dena 
+
         if(list1==null){
             current.next=list2;
             
